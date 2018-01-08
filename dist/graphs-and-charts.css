@@ -1,0 +1,50 @@
+div.graphs-bar-graph {
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+div.graphs-bar-graph * {
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+div.graphs-bar-graph div.graph-count-container {
+  display: inline-block;
+  margin-top: 13px;
+}
+
+div.graphs-bar-graph div.graph-bar-container div.graph-bar-step {
+  border-bottom: solid thin black;
+}
+
+div.graphs-bar-graph div.graph-bar-container {
+  display: inline-block;
+}
+
+div.graphs-bar-graph div.graph-bar-container div.graph-the-bar {
+  margin: 0px auto;
+  width: 50%;
+}
+
+div.graphs-bar-graph div.graph-bar-label-container div.graph-label-spacer,
+div.graphs-bar-graph div.graph-bar-label-container div.graph-bar-label {
+  display: inline-block;
+}
+
+div.graphs-bar-graph div.graph-bar-label-container div.graph-label-spacer {
+  width: 10%;
+}
+
+div.graphs-bar-graph div.graph-bar-label-container div.graph-bar-label {
+  text-align: center;
+}
+
+div.graphs-bar-graph div.graph-count-container div.graph-count-step {
+  text-align: right;
+  padding: 5px;
+}
