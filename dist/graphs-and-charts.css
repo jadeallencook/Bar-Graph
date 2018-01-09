@@ -1,3 +1,4 @@
+/* bar graph */
 div.graphs-bar-graph {
   width: 100%;
   -webkit-touch-callout: none;
@@ -11,11 +12,12 @@ div.graphs-bar-graph {
 div.graphs-bar-graph * {
   box-sizing: border-box;
   vertical-align: top;
+  font-size: 1em;
 }
 
 div.graphs-bar-graph div.graph-count-container {
   display: inline-block;
-  margin-top: 13px;
+  margin-top: 15px;
 }
 
 div.graphs-bar-graph div.graph-bar-container div.graph-bar-step {
@@ -48,3 +50,5 @@ div.graphs-bar-graph div.graph-count-container div.graph-count-step {
   text-align: right;
   padding: 5px;
 }
+
+/* pie chart */
